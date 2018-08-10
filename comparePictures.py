@@ -94,11 +94,11 @@ class comparePictures:
             # cv2.drawContours(im1, [box], 0, (255, 255, 255), -1)
             # cv2.drawContours(im2, [box], 0, (255, 255, 255), -1)
             ### RED BOX
-            cv2.drawContours(im1, [box], 0, (0, 0, 255), 2)
-            cv2.drawContours(im2, [box], 0, (0, 0, 255), 2)
-            cv2.imshow('first',im1)
-            cv2.imshow('second', im2)
-            cv2.waitKey(0)
+            #cv2.drawContours(im1, [box], 0, (0, 0, 255), 2)
+            #cv2.drawContours(im2, [box], 0, (0, 0, 255), 2)
+            #cv2.imshow('first',im1)
+            #cv2.imshow('second', im2)
+            #cv2.waitKey(0)
 
         ### convert to binary black and white for better comparisons
         im1 = cv2.cvtColor(im1, cv2.COLOR_BGR2GRAY)

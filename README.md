@@ -7,6 +7,8 @@ lecture video.
 
 Read more on Project_Paper.pdf
 
+To run program:  "python main.py", but meet all the requirements below.  
+
 System Requirements Windows:  
 pip install ffmpy  
 pip install Pillow  
